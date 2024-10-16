@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    background-color: #555;
+    background-image: url('Furback.jpg'); 
+    background-repeat: repeat; 
+    background-size: 400px 250px; 
+    color: rgb(185, 241, 71);
+    font-family: "Permanent Marker", cursive;
+    position: relative;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+      
+}
+
+.logo {
+  position: absolute;
+  
+}
+.logo-img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid rgb(185, 240, 70);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.friendsslv, .likegotto {
+    color:  rgb(185, 241, 71);
+    font-size: 2.5rem;
+  }
+
+  .dot1 {
+    height: 10px;
+    width: 10px;
+    background-color: #8f0e0e;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  .dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #422594;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  .dot3 {
+    height: 10px;
+    width: 10px;
+    background-color: #0e8f0e;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  .dot4 {
+    height: 10px;
+    width: 10px;
+    background-color: #d18f13;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  .dot5 {
+    height: 10px;
+    width: 10px;
+    background-color: #8f0e0e;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  .dot6 {
+    height: 10px;
+    width: 10px;
+    background-color: #8f2276;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  .dot7 {
+    height: 10px;
+    width: 10px;
+    background-color: #0e8f2a;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  .dot8 {
+    height: 10px;
+    width: 10px;
+    background-color: #0e448f;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  .dot1a {
+    height: 8px;
+    width: 8px;
+    background-color: #8f0e0e;
+    border-radius: 50%;
+    display: inline-block;
+  
+  }
+  .dot2a {
+    height: 8px;
+    width: 8px;
+    background-color: #422594;
+    border-radius: 50%;
+    display: inline-block;
+   
+  }
+  .dot3a {
+    height: 8px;
+    width: 8px;
+    background-color: #0e8f0e;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .dot4a {
+    height: 8px;
+    width: 8px;
+    background-color: #d18f13;
+    border-radius: 50%;
+    display: inline-block;
+   
+  }
+  .dot5a {
+    height: 8px;
+    width: 8px;
+    background-color: #8f0e0e;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .dot6a {
+    height: 10px;
+    width: 10px;
+    background-color: #8f2276;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .dot7a {
+    height: 10px;
+    width: 10px;
+    background-color: #0e8f2a;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .dot8a {
+    height: 10px;
+    width: 10px;
+    background-color: #0e448f;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+ 
+.header-text {
+  flex-grow: 1; 
+  text-align: center; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(185, 240, 70);
+    padding: 10px;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.menu-btn, .sub-btn {
+    background-color: #555;
+    color: rgb(185, 240, 70);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Permanent Marker", cursive;
+}
+
+.menu-btn:hover {
+    background-color: #555;
+}
+
+/*.dropdown {             Legordulo gombok
+    position: relative;
+}
+*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: silver;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .sub-btn {
+    color: rgb(185, 240, 70);
+    background-color: #555;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+.dropdown-content .sub-btn:hover {
+    background-color: rgb(150,150,150);
+}
+
+.nameday {
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 400px;
+    background-image: url('friendsmainback.jpg'); /* Add background image */
+    background-repeat: repeat; /* Repeat the background image */
+    background-size: 400px 250px; /* Example size: 150px by 150px */
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    font-family: "Permanent Marker", cursive;
+    
+}
+
+
+.left-section, .right-section {
+    flex-basis: 25%;
+}
+
+.partners {
+  color: rgb(185, 240, 70); 
+  font-size: 2rem;
+  flex-basis: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(185, 240, 70);
+  background-color: rgb(150,150,150);
+}
+
+.center-section {
+    flex-basis: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(185, 240, 70);
+    background-color: rgb(150,150,150);
+    width: fit-content; /* Make the section fit the content */
+    height: fit-content;
+}
+.center-text {
+  text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    section {
+        flex-basis: 100%;
+    }
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+  }
+  footer .logos {
+    display: flex;
+    justify-content: center; /* Center the logos */
+    align-items: center; /* Align the logos vertically */
+    gap: 20px; /* Equal spacing between logos */
+  }
+  
+  footer .logos a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Ensure the icon color matches the footer text color */
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+  
+  footer .logos ion-icon {
+    font-size: 2rem; /* Adjust icon size as needed */
+    vertical-align: middle; /* Align icons vertically */
+  }
+  
+  
+  footer .logos a:hover ion-icon {
+    color: rgb(17, 66, 82); 
+  }
+  
+  
+    
+    .fb {
+    color: blue;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    }
+  
+    .ig {
+    color: yellow;
+    background: linear-gradient(to right, rgb(223, 69, 105), rgb(231, 75, 184), rgb(245, 49, 49));
+    padding: 7px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+  
+    .yt {
+    color: red;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    }
+    .tt {
+      color: black;
+      background-color: white;
+      padding: 7px;
+      border-radius: 50%;
+      }
+  .footerlabelright{
+    padding-top: 1rem;
+  }
+  .followus {
+    padding-bottom: 1rem;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
