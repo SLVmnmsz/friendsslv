@@ -239,6 +239,7 @@ main {
     background-image: url('friendsmainback.jpg'); /* Add background image */
     background-repeat: repeat; /* Repeat the background image */
     background-size: 400px 250px; /* Example size: 150px by 150px */
+    font-family: "Permanent Marker", cursive;
 }
 
 section {
@@ -282,7 +283,7 @@ img {
 
 @media (max-width: 768px) {
     .menu {
-        flex-direction: column;
+        flex-direction:row;
         font-family: "Permanent Marker", cursive;
     }
 
