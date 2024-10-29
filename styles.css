@@ -283,10 +283,12 @@ img {
 @media (max-width: 768px) {
     .menu {
         flex-direction: column;
+        font-family: "Permanent Marker", cursive;
     }
 
     section {
         flex-basis: 100%;
+        font-family: "Permanent Marker", cursive;
     }
 }
 footer {
