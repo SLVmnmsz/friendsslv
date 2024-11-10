@@ -26,7 +26,7 @@ function showContactText(text) {
             const images = ['crea1.jpeg', 'crea2.jpeg', 'crea3.jpeg', 'crea4.jpeg']; // Add your image paths here
             images.forEach(src => {
                 const img = document.createElement('img');
-                img.src = src;
+                img.src = "static/images/" + src;
                 img.alt = 'Gallery Image 1';
                 displayContent.appendChild(img);
             });
@@ -36,7 +36,7 @@ function showContactText(text) {
             const images = ['tal1.jpg', 'tal2.jpg', 'tal3.jpg', 'tal4.jpg', 'tal5.jpg', 'tal6.jpg']; // Add your image paths here
             images.forEach(src => {
                 const img = document.createElement('img');
-                img.src = src;
+                img.src = "static/images/" + src;
                 img.alt = 'Gallery Image 2';
                 displayContent.appendChild(img);
             });
@@ -46,7 +46,7 @@ function showContactText(text) {
             const images = ['baby1.jpg', 'baby2.jpg', 'baby3.jpg', 'baby4.jpeg', 'baby5.jpeg']; // Add your image paths here
             images.forEach(src => {
                 const img = document.createElement('img');
-                img.src = src;
+                img.src = "static/images/" + src;
                 img.alt = 'Gallery Image 3';
                 displayContent.appendChild(img);
             });
