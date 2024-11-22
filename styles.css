@@ -337,6 +337,7 @@ footer {
     padding: 1rem;
     position: relative;
     width: 100%;
+    font-family: "Permanent Marker", cursive;
   }
   footer .logos {
     display: flex;
