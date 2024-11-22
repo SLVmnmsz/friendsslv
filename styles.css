@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: "Permanent Marker", cursive;
 }
 
 header {
@@ -40,6 +40,7 @@ header {
 .header-text {
     margin: 0; /* Remove any auto margins on mobile */
     padding: 0 10px; /* Add some padding for better alignment */
+    font-family: "Permanent Marker", cursive;
 }
 
 .friendsslv {
