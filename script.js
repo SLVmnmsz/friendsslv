@@ -116,3 +116,24 @@ function loadFacebookSDK() {
     script.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0";
     document.body.appendChild(script);
 }
+document.querySelectorAll('.dropdown').forEach(dropdown => {
+    dropdown.addEventListener('click', function (e) {
+        e.stopPropagation(); // Prevent event bubbling
+        const dropdownContent = this.querySelector('.dropdown-content');
+
+        // Toggle visibility
+        if (dropdownContent.style.display === 'block') {
+            dropdownContent.style.display = 'none';
+        } else {
+            dropdownContent.style.display = 'block';
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function hideDropdown(event) {
+            if (!dropdown.contains(event.target)) {
+                dropdownContent.style.display = 'none';
+                document.removeEventListener('click', hideDropdown); // Remove listener
+            }
+        });
+    });
+});
