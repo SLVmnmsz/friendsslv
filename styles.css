@@ -411,4 +411,15 @@ footer {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
-  
+  @media (max-width: 768px) {
+    #myBtn {
+        bottom: 10px; /* Adjust placement for smaller screens */
+        right: 15px; /* Adjust placement for smaller screens */
+        font-size: 16px; /* Slightly smaller font */
+        opacity: 0.8; /* Maintain initial fade level */
+    }
+
+    #myBtn:hover {
+        opacity: 1; /* Fully visible on hover */
+    }
+}
