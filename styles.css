@@ -285,6 +285,10 @@ img {
     .menu {
         flex-direction:row;
         font-family: "Permanent Marker", cursive;
+    
+          display: flex; /* Flexbox layout for responsiveness */
+          flex-direction: column; /* Stack buttons vertically on smaller screens */
+          align-items: center; /* Center-align buttons */
     }
 
     section {
