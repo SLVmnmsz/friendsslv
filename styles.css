@@ -22,7 +22,28 @@ header {
     position: relative;
     padding-bottom: 2rem;
     padding-top: 3rem;
+    
       
+}
+@media (max-width: 768px) {
+  header {
+      
+      align-items: center; /* Center items */
+  }
+
+  header .logo {
+      margin: 0 0 15px 0; /* Remove right margin and add bottom margin */
+  }
+
+  header .logo-img {
+      width: 100px; /* Adjust logo size for mobile */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  header .header-text h1,
+  header .header-text h2 {
+      font-size: 20px; /* Adjust font size for smaller screens */
+  }
 }
 
 .logo {
@@ -287,7 +308,7 @@ img {
         font-family: "Permanent Marker", cursive;
     
           display: flex; /* Flexbox layout for responsiveness */
-          flex-direction: column; /* Stack buttons vertically on smaller screens */
+          flex-direction: row; /* Stack buttons vertically on smaller screens */
           align-items: center; /* Center-align buttons */
     }
 
