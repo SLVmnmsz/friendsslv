@@ -267,13 +267,13 @@ main {
 }
 @media (max-width: 768px) {
   main {
-      font-family: "Permanent Marker", cursive;
+      font-family: "Permanent Marker", sans-serif;
   }}
 
 section {
     flex: 1;
     padding: 20px;
-    font-family: "Permanent Marker", cursive;
+    font-family: "Permanent Marker", sans-serif;
     
 }
 
