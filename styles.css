@@ -27,23 +27,25 @@ header {
 }
 @media (max-width: 768px) {
   header {
-      
-      align-items: center; /* Center items */
-  }
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align content */
+    font-family: "Permanent Marker", cursive;
+}
 
-  header .logo {
-      margin: 0 0 15px 0; /* Remove right margin and add bottom margin */
-  }
+.logo-img {
+    margin-bottom: 15px; /* Add spacing between the logo and text */
+    max-width: 100px; /* Adjust logo size for mobile */
+}
 
-  header .logo-img {
-      width: 100px; /* Adjust logo size for mobile */
-      height: auto; /* Maintain aspect ratio */
-  }
+.header-text {
+    margin: 0; /* Remove any auto margins on mobile */
+    padding: 0 10px; /* Add some padding for better alignment */
+}
 
-  header .header-text h1,
-  header .header-text h2 {
-      font-size: 20px; /* Adjust font size for smaller screens */
-  }
+.friendsslv {
+    font-size: 20px; /* Adjust text size for smaller screens */
+    margin-top: 25%;
+}
 }
 
 .logo {
@@ -307,9 +309,15 @@ img {
         flex-direction:row;
         font-family: "Permanent Marker", cursive;
     
-          display: flex; /* Flexbox layout for responsiveness */
-          flex-direction: row; /* Stack buttons vertically on smaller screens */
-          align-items: center; /* Center-align buttons */
+         /* display: flex; /* Flexbox layout for responsiveness */
+         /* flex-direction: row; /* Stack buttons vertically on smaller screens */
+         /* align-items: center; /* Center-align buttons */
+         flex-wrap: wrap; /* Allow wrapping of buttons */
+        justify-content: center; /* Center buttons */
+        box-sizing: border-box;
+        /*flex: 1 1 45%; /* Each button takes up about half the row */
+        /*max-width: 45%; /* Limit maximum width */
+        
     }
 
     section {
