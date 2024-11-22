@@ -264,6 +264,10 @@ main {
     background-size: 400px 250px; /* Example size: 150px by 150px */
     font-family: "Permanent Marker", cursive;
 }
+@media (max-width: 768px) {
+  main {
+      font-family: "Permanent Marker", cursive;
+  }}
 
 section {
     flex: 1;
