@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Permanent Marker", serif;
+  font-family: 'Brush Script MT', cursive;
 }
 
 header {
@@ -17,8 +17,8 @@ header {
     background-image: url('static/arts/Furback.jpg'); 
     background-repeat: repeat; 
     background-size: 400px 250px; 
-    color: rgb(185, 241, 71);
-    font-family: "Permanent Marker", cursive;
+    color: rgb(70, 125, 150);
+    font-family: 'Brush Script MT', cursive;
     position: relative;
     padding-bottom: 2rem;
     padding-top: 3rem;
@@ -29,7 +29,7 @@ header {
   header {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center-align content */
-    font-family: "Permanent Marker", serif;
+    font-family: 'Brush Script MT', cursive;
 }
 
 .logo-img {
@@ -57,145 +57,16 @@ header {
   width: 200px;
   height: auto;
   cursor: pointer;
-  border: 2px solid rgb(185, 240, 70);
+  border: 2px solid rgb(70, 125, 150);
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
 .friendsslv, .likegotto {
-    color:  rgb(185, 241, 71);
+    color:  rgb(70, 125, 150);
     font-size: 2.5rem;
   }
 
-  .dot1 {
-    height: 10px;
-    width: 10px;
-    background-color: #8f0e0e;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-  }
-  .dot2 {
-    height: 10px;
-    width: 10px;
-    background-color: #422594;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-  }
-  .dot3 {
-    height: 10px;
-    width: 10px;
-    background-color: #0e8f0e;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-  }
-  .dot4 {
-    height: 10px;
-    width: 10px;
-    background-color: #d18f13;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-  }
-  .dot5 {
-    height: 10px;
-    width: 10px;
-    background-color: #8f0e0e;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-  }
-  .dot6 {
-    height: 10px;
-    width: 10px;
-    background-color: #8f2276;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-  }
-  .dot7 {
-    height: 10px;
-    width: 10px;
-    background-color: #0e8f2a;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-  }
-  .dot8 {
-    height: 10px;
-    width: 10px;
-    background-color: #0e448f;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-  }
-  .dot1a {
-    height: 8px;
-    width: 8px;
-    background-color: #8f0e0e;
-    border-radius: 50%;
-    display: inline-block;
-  
-  }
-  .dot2a {
-    height: 8px;
-    width: 8px;
-    background-color: #422594;
-    border-radius: 50%;
-    display: inline-block;
-   
-  }
-  .dot3a {
-    height: 8px;
-    width: 8px;
-    background-color: #0e8f0e;
-    border-radius: 50%;
-    display: inline-block;
-    
-  }
-  .dot4a {
-    height: 8px;
-    width: 8px;
-    background-color: #d18f13;
-    border-radius: 50%;
-    display: inline-block;
-   
-  }
-  .dot5a {
-    height: 8px;
-    width: 8px;
-    background-color: #8f0e0e;
-    border-radius: 50%;
-    display: inline-block;
-    
-  }
-  .dot6a {
-    height: 10px;
-    width: 10px;
-    background-color: #8f2276;
-    border-radius: 50%;
-    display: inline-block;
-    
-  }
-  .dot7a {
-    height: 10px;
-    width: 10px;
-    background-color: #0e8f2a;
-    border-radius: 50%;
-    display: inline-block;
-    
-  }
-  .dot8a {
-    height: 10px;
-    width: 10px;
-    background-color: #0e448f;
-    border-radius: 50%;
-    display: inline-block;
-    
-  }
- 
 .header-text {
   flex-grow: 1; 
   text-align: center; 
@@ -204,19 +75,19 @@ header {
 .menu {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(185, 240, 70);
+    background-color: rgb(70, 125, 150);
     padding: 10px;
     align-items: center;
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Brush Script MT', cursive;
 }
 
 .menu-btn, .sub-btn {
     background-color: #555;
-    color: rgb(185, 240, 70);
+    color: lightskyblue;
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Brush Script MT', cursive;
 }
 
 .menu-btn:hover {
@@ -240,7 +111,7 @@ header {
 }
 
 .dropdown-content .sub-btn {
-    color: rgb(185, 240, 70);
+    color: lightskyblue;
     background-color: #555;
     padding: 12px 16px;
     text-align: center;
@@ -263,17 +134,17 @@ main {
     background-image: url('static/arts/friendsmainback.jpg'); /* Add background image */
     background-repeat: repeat; /* Repeat the background image */
     background-size: 400px 250px; /* Example size: 150px by 150px */
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Brush Script MT', cursive;
 }
 @media (max-width: 768px) {
   main {
-      font-family: "Permanent Marker", sans-serif;
+    font-family: 'Brush Script MT', cursive;
   }}
 
 section {
     flex: 1;
     padding: 20px;
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Brush Script MT', cursive;
     
 }
 
@@ -283,12 +154,12 @@ section {
 }
 
 .partners {
-  color: rgb(185, 240, 70); 
+  color: lightskyblue; 
   font-size: 2rem;
   flex-basis: 50%;
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid rgb(185, 240, 70);
+  border: 2px solid rgb(70, 125, 150);
   background-color: rgb(150,150,150);
 }
 
@@ -296,7 +167,7 @@ section {
     flex-basis: 50%;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid rgb(185, 240, 70);
+    border: 2px solid rgb(70, 125, 150);
     background-color: rgb(150,150,150);
     width: fit-content; /* Make the section fit the content */
     height: fit-content;
@@ -308,11 +179,93 @@ img {
     width: 100%;
     height: auto;
 }
+.center-content {
+  text-align: center;
+  margin: 20px;
+}
+
+/* General Container */
+.center-content {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Facebook reviews */
+.fb-page {
+  margin: 20px auto;
+}
+
+/* Slideshow */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Slides */
+.slide {
+  display: none;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+/* Next & Prev buttons */
+#prevBtn, #nextBtn {
+  position: relative;
+  top: 70%;
+  font-size: 18px;
+  background-color: rgb(70, 125, 150);
+  color: lightskyblue;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 20%;
+  z-index: 1000;
+}
+
+#prevBtn {
+  left: -25px;
+}
+
+#nextBtn {
+  right: -25px;
+}
+
+/* Button hover effect */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* For mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .prev, .next {
+      font-size: 16px;
+      padding: 8px;
+  }
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.slide p {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
 
 @media (max-width: 768px) {
     .menu {
         flex-direction:row;
-        font-family: "Permanent Marker", cursive;
+        font-family: 'Brush Script MT', cursive;
     
          /* display: flex; /* Flexbox layout for responsiveness */
          /* flex-direction: row; /* Stack buttons vertically on smaller screens */
@@ -327,7 +280,7 @@ img {
 
     section {
         flex-basis: 100%;
-        font-family: "Permanent Marker", cursive;
+        font-family: 'Brush Script MT', cursive;
     }
 }
 footer {
@@ -337,7 +290,7 @@ footer {
     padding: 1rem;
     position: relative;
     width: 100%;
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Brush Script MT', cursive;
   }
   footer .logos {
     display: flex;
