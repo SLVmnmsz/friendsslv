@@ -33,7 +33,7 @@ header {
 }
 
 .logo-img {
-    margin-bottom: 15px; /* Add spacing between the logo and text */
+    margin-bottom: 20px; /* Add spacing between the logo and text */
     max-width: 100px; /* Adjust logo size for mobile */
 }
 
