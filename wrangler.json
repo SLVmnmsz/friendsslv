@@ -2,7 +2,7 @@
     "name": "friendsslv",
     "compatibility_date": "2025-03-30",
     "assets": {
-      "directory": "./"
+      "directory": "./dist"
     }
   }
   
