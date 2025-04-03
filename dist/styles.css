@@ -33,7 +33,7 @@ header {
 }
 
 .logo-img {
-    margin-bottom: 20px; /* Add spacing between the logo and text */
+    margin-bottom: 30px; /* Add spacing between the logo and text */
     max-width: 100px; /* Adjust logo size for mobile */
 }
 
@@ -45,7 +45,7 @@ header {
 
 .friendsslv {
     font-size: 15px; /* Adjust text size for smaller screens */
-    margin-top: 25%;
+    margin-top: 30%;
 }
 }
 
@@ -297,7 +297,7 @@ footer {
     justify-content: center; /* Center the logos */
     align-items: center; /* Align the logos vertically */
     gap: 20px; /* Equal spacing between logos */
-  }
+   }
   
   footer .logos a {
     text-decoration: none; /* Remove underline from links */
