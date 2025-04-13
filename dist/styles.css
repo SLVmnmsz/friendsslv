@@ -29,7 +29,7 @@ header {
   header {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center-align content */
-    font-family: "Goudy Bookletter 1911", cursive;
+    /*font-family: "Goudy Bookletter 1911", cursive;*/
 }
 
 .logo-img {
@@ -138,7 +138,7 @@ main {
 }
 @media (max-width: 768px) {
   main {
-    font-family: "Goudy Bookletter 1911", cursive;
+    font-family: Arial, Helvetica, sans-serif
   }}
 
 section {
@@ -265,7 +265,7 @@ img {
 @media (max-width: 768px) {
     .menu {
         flex-direction:row;
-        font-family: "Goudy Bookletter 1911", cursive;
+       /* font-family: "Goudy Bookletter 1911", cursive;*/
     
          /* display: flex; /* Flexbox layout for responsiveness */
          /* flex-direction: row; /* Stack buttons vertically on smaller screens */
