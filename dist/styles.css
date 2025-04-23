@@ -41,7 +41,8 @@ header {
 .header-text {
     margin: 0; /* Remove any auto margins on mobile */
     padding: 0 10px; /* Add some padding for better alignment */
-    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 .friendsslv {
@@ -247,6 +248,8 @@ img {
   .prev, .next {
       font-size: 16px;
       padding: 8px;
+      font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
   }
 }
 
@@ -283,7 +286,8 @@ img {
 
     section {
         flex-basis: 100%;
-        font-family: "Goudy Bookletter 1911", cursive;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
     }
 }
 footer {
@@ -379,6 +383,8 @@ footer {
         right: 15px; /* Adjust placement for smaller screens */
         font-size: 16px; /* Slightly smaller font */
         opacity: 0.8; /* Maintain initial fade level */
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
     }
 
     #myBtn:hover {
