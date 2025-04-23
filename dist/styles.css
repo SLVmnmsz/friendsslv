@@ -91,10 +91,16 @@ header {
     border: none;
     padding: 10px;
     cursor: pointer;
+    font-family: 'Brush Script MT', cursive;
+}
+@media (max-width: 768px) {
+  .menu-btn, .sub-btn {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align content */
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
-
+}
 .menu-btn:hover {
     background-color: #555;
 }
@@ -324,7 +330,14 @@ footer {
   footer .logos a:hover ion-icon {
     color: rgb(17, 66, 82); 
   }
-  
+  @media screen and (max-width: 600px) {
+    footer {
+        font-size: 16px;
+        padding: 8px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+  }
   
     
     .fb {
