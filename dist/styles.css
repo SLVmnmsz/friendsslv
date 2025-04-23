@@ -54,28 +54,23 @@ header {
 @media (max-width: 768px) {
   header {
     flex-direction: column;  /*Stack items vertically */
-    align-items: left; /* Center-align content */
+    align-items: center; /* Center-align content */
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    padding-bottom: 25%;
+    
 }
 
 .logo-img {
-    margin-bottom: 30px; /* Add spacing between the logo and text */
+    margin-bottom: 5px; /* Add spacing between the logo and text */
     max-width: 100px; /* Adjust logo size for mobile */
+    margin-top: 100%;
 }
 
 .header-text {
     margin: 0; /* Remove any auto margins on mobile */
     padding: 0 10px; /* Add some padding for better alignment */
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-}
 
-.friendsslv, .likegotto {
-    font-size: 15px; /* Adjust text size for smaller screens */
-    margin-top: 55%;
-    align-items: end;
-    text-align: end;
 }
 }
 .menu {
@@ -404,7 +399,7 @@ footer {
         font-size: 16px; /* Slightly smaller font */
         opacity: 0.8; /* Maintain initial fade level */
         font-family: 'Times New Roman', Times, serif;
-        font-style: italic;
+        
     }
 
     #myBtn:hover {
