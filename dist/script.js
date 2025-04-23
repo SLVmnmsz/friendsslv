@@ -128,8 +128,8 @@ function topFunction() {
     slideshowDiv.innerHTML = `
         <div class="slides">
             <div class="slide" style="display: block;">Alen *****: nice, friendly owners. beutiful dogs. 5/5 <br> -Facebook- </div>
-            <div class="slide">We specialize in the Lagotto Romagnolo breed.</div>
-            <div class="slide">Our dogs are trained for truffle hunting and companionship.</div>
+            <div class="slide">Anita ****: Szia! Mi kis Lolánk elmúlt 1 éves! Nagyon imádjuk, köszönjük Neked!! -Messenger- </div>
+            <div class="slide">Erika *****: Lola egy csoda! Nagyon szépen köszönjük Nektek! -Messenger- </div>
             <div class="slide">Contact us for more information!</div>
         </div>
         <button id="prevBtn">Prev</button>

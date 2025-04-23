@@ -72,6 +72,8 @@ header {
 .header-text {
   flex-grow: 1; 
   text-align: center; 
+  font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 .menu {
@@ -89,7 +91,8 @@ header {
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 .menu-btn:hover {
