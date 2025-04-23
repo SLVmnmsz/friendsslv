@@ -100,6 +100,7 @@ header {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     padding: 3px;
+    margin: 2px;
 }
 }
 .menu-btn:hover {
