@@ -53,8 +53,8 @@ header {
 }
 @media (max-width: 768px) {
   header {
-    /*flex-direction: row;  Stack items vertically */
-    align-items: center; /* Center-align content */
+    flex-direction: column;  /*Stack items vertically */
+    align-items: left; /* Center-align content */
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -74,6 +74,8 @@ header {
 .friendsslv, .likegotto {
     font-size: 15px; /* Adjust text size for smaller screens */
     margin-top: 55%;
+    align-items: end;
+    text-align: end;
 }
 }
 .menu {
