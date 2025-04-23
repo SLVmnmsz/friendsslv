@@ -99,6 +99,7 @@ header {
     align-items: center; /* Center-align content */
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    padding: 3px;
 }
 }
 .menu-btn:hover {
