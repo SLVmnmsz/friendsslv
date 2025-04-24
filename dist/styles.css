@@ -56,14 +56,14 @@ header {
     flex-direction: column;  /*Stack items vertically */
     align-items: center; /* Center-align content */
     font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 25%;
+    padding-bottom: 30%;
     
 }
 
 .logo-img {
     margin-bottom: 5px; /* Add spacing between the logo and text */
     max-width: 100px; /* Adjust logo size for mobile */
-    margin-top: 100%;
+    margin-top: 110%;
 }
 
 .header-text {
@@ -98,6 +98,28 @@ header {
     font-style: italic;
     padding: 5px;
     margin: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: silver;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content .sub-btn {
+  color: lightskyblue;
+  background-color: #555;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.dropdown-content .sub-btn:hover {
+  background-color: rgb(150,150,150);
 }
 }
 .menu-btn:hover {
