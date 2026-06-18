@@ -50,6 +50,16 @@ function showContactText(text) {
                 img.alt = 'Gallery Image 3';
                 displayContent.appendChild(img);
             });
+             } 
+    
+        else if (content === 'Gallery Page 4') {
+            const images = ['green.jpg', 'blue.jpg', 'pink.jpg', 'purple.jpg', 'white.jpg', 'orange.jpg']; // Add your image paths here
+            images.forEach(src => {
+                const img = document.createElement('img');
+                img.src = "static/images/" + src;
+                img.alt = 'Gallery Image 4';
+                displayContent.appendChild(img);
+            });
         } 
     }   
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
