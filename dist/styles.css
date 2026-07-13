@@ -259,7 +259,12 @@ img {
 #nextBtn {
   right: -25px;
 }
-
+.right-section img {
+    border: 5px solid rgb(70, 125, 150);   /* frame thickness and color */
+    padding: 5px;             /* space between image and frame */
+    border-radius: 10px;      /* rounded corners */
+    background: rgb(150, 150, 150);        /* frame background */
+}
 /* Button hover effect */
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
