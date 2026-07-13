@@ -166,7 +166,6 @@ section {
 .revivi {
   flex: 1;
     padding: 20px;
-    font-family: 'Brush Script MT', cursive;
     color: lightskyblue; 
   font-size: 2rem;
   flex-basis: 50%;
@@ -177,7 +176,7 @@ section {
   
 }
 #reviewText {
-    color: #cbe5ff; /* Random review color */
+    color: #cbe5ff; /* Review color */
 }
 .partners {
   color: lightskyblue; 
