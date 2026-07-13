@@ -96,6 +96,28 @@ function topFunction() {
         behavior: 'smooth'
     });
 }
+const reviews = [
+    "Alen *****: nice, friendly owners. beutiful dogs. 5/5 <br> -Facebook-",
+    "Anita ****: Szia! Mi kis Lolánk elmúlt 1 éves! Nagyon imádjuk, köszönjük Neked!! <br>-Messenger-",
+    "Erika *****: Lola egy csoda! Nagyon szépen köszönjük Nektek! <br>-Messenger-"
+];
+
+function setHourlyReview() {
+    const reviewElement = document.getElementById("reviewText");
+
+    if (!reviewElement) return;
+
+    // Create a number that changes every hour
+    const hourNumber = Math.floor(Date.now() / 3600000);
+
+    // Select review based on the current hour
+    const index = hourNumber % reviews.length;
+
+    reviewElement.innerHTML = "<br> " + reviews[index];
+}
+
+setHourlyReview();
+ 
  // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx facebook and contact
  function showContactAndReviews() {
     const displayContent = document.getElementById('content');
@@ -197,6 +219,7 @@ function topFunction() {
             showSlide(slideIndex);
         }, 30000);
     }
+    
 
     // Load the Facebook SDK
     function loadFacebookSDK() {
@@ -207,26 +230,4 @@ function topFunction() {
         script.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0";
         document.body.appendChild(script);
     }
-
- 
-const reviews = [
-    "Alen *****: nice, friendly owners. beutiful dogs. 5/5 <br> -Facebook",
-    "Anita ****: Szia! Mi kis Lolánk elmúlt 1 éves! Nagyon imádjuk, köszönjük Neked!! -Messenger-",
-    "Erika *****: Lola egy csoda! Nagyon szépen köszönjük Nektek! -Messenger-"
-];
-
-function updateReview() {
-    const review = document.getElementById("reviewText");
-    if (!review) return;
-
-    // Creates a different seed every hour
-    const hour = Math.floor(Date.now() / 3600000);
-
-    // Deterministic "random" number
-    const index = (hour * 17 + 13) % reviews.length;
-
-    review.textContent = reviews[index];
-}
-
-document.addEventListener("DOMContentLoaded", updateReview);
  }
