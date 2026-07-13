@@ -68,6 +68,11 @@ function goHome() {
             <p>Nice to see you on our breeder webpage!</p>
             <p>We are passionate about breeding healthy, happy, and well-socialized dogs. Our goal is to provide you with a loving companion that will become a cherished member of your family. Each of our dogs is raised in a loving environment, ensuring they are well-adjusted and ready to bring joy to your home.</p>
             <p>Explore our site to learn more about our breeds, visit our gallery and contact us for available puppies or ask questions if you have any! </p>
+            <p>Thank you for visiting, and we hope you find your perfect furry friend!</p>
+            <h4 class="kedveslatogato" style="text-align:center;">Kedves Látogató!</h4>
+            <p>Nice to see you on our breeder webpage!</p>
+            <p>We are passionate about breeding healthy, happy, and well-socialized dogs. Our goal is to provide you with a loving companion that will become a cherished member of your family. Each of our dogs is raised in a loving environment, ensuring they are well-adjusted and ready to bring joy to your home.</p>
+            <p>Explore our site to learn more about our breeds, visit our gallery and contact us for available puppies or ask questions if you have any! </p>
             <p>Thank you for visiting, and we hope you find your perfect furry friend!</p>`;
 }
 let mybutton = document.getElementById("myBtn");
@@ -202,4 +207,26 @@ function topFunction() {
         script.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0";
         document.body.appendChild(script);
     }
+
+ 
+const reviews = [
+    "Alen *****: nice, friendly owners. beutiful dogs. 5/5 <br> -Facebook",
+    "Anita ****: Szia! Mi kis Lolánk elmúlt 1 éves! Nagyon imádjuk, köszönjük Neked!! -Messenger-",
+    "Erika *****: Lola egy csoda! Nagyon szépen köszönjük Nektek! -Messenger-"
+];
+
+function updateReview() {
+    const review = document.getElementById("reviewText");
+    if (!review) return;
+
+    // Creates a different seed every hour
+    const hour = Math.floor(Date.now() / 3600000);
+
+    // Deterministic "random" number
+    const index = (hour * 17 + 13) % reviews.length;
+
+    review.textContent = reviews[index];
 }
+
+document.addEventListener("DOMContentLoaded", updateReview);
+ }
